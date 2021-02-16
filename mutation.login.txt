@@ -1,0 +1,24 @@
+mutation{
+tokenAuth(username:"admin",password:"admin"
+)
+  {success
+errors
+  token
+  refreshToken
+  user{
+    username
+    email
+  }}
+  
+}
+
+
+#updateAccount
+mutation{
+updateAccount(firstName:"firsname admin"
+)
+  {success
+errors
+  }
+  
+}

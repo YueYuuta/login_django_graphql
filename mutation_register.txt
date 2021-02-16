@@ -1,0 +1,14 @@
+mutation {
+  register(
+    email:"junior@df.com"
+    username:"junior"
+    password1:"xczxczxcz4564564564cxzczxczx"
+    password2:"xczxczxcz4564564564cxzczxczx"
+  )
+  {
+    success
+    errors
+    token
+    refreshToken
+  }
+}
